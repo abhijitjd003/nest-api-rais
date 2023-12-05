@@ -15,6 +15,9 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
+- name: Run Tests
+  run: npm test -- --passWithNoTests
+
 - task: CopyFiles@2
   inputs:
     Contents: 'package*.json'
