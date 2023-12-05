@@ -1,0 +1,9 @@
+export const jwtConstants = {
+    secret: `-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpHCHYgawzNlxVebSKXL7vfc/i
+hP+dQgMxlaPEi7/vpQtV2szHjIP34MnUKelXFuIETJjOgjWAjTTJoj38MQUWc3u7
+SRXaGVggqQEKH+cRi5+UcEObIfpi+cIyAm9MJqKabfJK2e5X/OS7FgAwPjgtDbZO
+ZxamOrWWL8KGB+lH+QIDAQAB
+-----END PUBLIC KEY-----`,
+    IV_SIZE: 16,
+};

@@ -1,0 +1,19 @@
+{
+    "collection": "@nestjs/schematics",
+    "sourceRoot": "src",
+    "compilerOptions": {
+        "assets": [
+            "web.config",
+            {
+                "include": "../config/*.yaml",
+                "outDir": "./dist/config"
+            },
+            {
+                "include": "../config/defaultProfile",
+                "outDir": "./dist/config"
+            },
+            "mailer/template/**"
+        ],
+        "watchAssets": true
+    }
+}

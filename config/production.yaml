@@ -1,0 +1,82 @@
+http:
+    port: 3093
+
+db:
+    mssql:
+        db1:
+            DB_PORT: 1433
+            DB_HOST: "raissql01.renaissanceins.com"
+            DB_USER: "DWWebService"
+            DB_PASSWORD: "N3wton!!"
+            DB_NAME: "RAISDataModel"
+        db2:
+            DB_PORT: 1433
+            DB_HOST: "raissql01.renaissanceins.com"
+            DB_USER: "DWWebService"
+            DB_PASSWORD: "N3wton!!"
+            DB_NAME: "DWFinance"
+        db3:
+            DB_PORT: 1433
+            DB_HOST: "raissql01.renaissanceins.com"
+            DB_USER: "DWWebService"
+            DB_PASSWORD: "N3wton!!"
+            DB_NAME: "MemberCentral"
+
+    mongo:
+        MONGO_USERNAME: "membercentralprod"
+        MONGO_PASSWORD: "2ja61sPPOglTzVzPYr8JflwDU6h731XCXWiY7hLdbO53XCOZu9Xnxx2zdRfsABTvYXiDcTb5pdApgrCenNdatw=="
+        MONGO_HOST: "membercentralprod.mongo.cosmos.azure.com:10255"
+        MONGO_DB_NAME: "membercentral"
+        MONGO_REPLICA_SET: "globaldb"
+        APP_NAME: "membercentralprod"
+    redis:
+        host: mcdevrenaissanceins.redis.cache.windows.net
+        port: 6379
+        password: "l4P1hoVK6QVEvcbFMthSzVJiyf6BkBimZAzCaPQGyKg="
+        ttl: 86400
+        max-items: 5000
+        items: 5000
+dnb:
+    key: "4e98f68526cb4d99925269ca6e4859b15f4fb64f9dcd4bbfb01674f5bfc789d3"
+    secret: "8827ca4a79c347f6a3aff484950a33ff0344f89b747f4331967df1f43b29ab87"
+
+relativity6:
+    url: "https://apiv2.usemarvin.ai/naics/naics/search/"
+    token: "e535b6aaa2244037934eb451dbb9af71"
+    prediction_type: "USA_NAICS_2022"
+
+auth:
+    private_key: "vq4ZnOcMAk3i6jPJYdiLzqcQ1AH7zgXwmpUdKU57guw="
+
+log:
+    api:
+        url: "https://raisapi.renaissanceins.com"
+        username: "raisapiadmin"
+        password: "v7VpdZx85zRr"
+
+automated_email:
+    request_access:
+        sender: "noreply@renaissanceins.com"
+        recipient: "raishelp@renaissanceins.com"
+        subject: "Portico Market Match - Agency Admin Permission Requested"
+
+swagger:
+    auth:
+        user: "renaissanceins"
+        secret: "7Y2BfhJiRSrOoQXprRu2"
+        env: "production"
+
+hubspot:
+    api: "https://api.hsforms.com/submissions/v3/integration/submit/5192733/5bf0817b-7c3b-4733-a9a8-179aab6557a0"
+
+accord:
+    uploadfile:
+        diskPath: "E:/Sites/Prod/App_UploadedFiles/SubmissionAccord"
+        httpPath: "https://membercentral.renaissanceins.com/App_UploadedFiles/SubmissionAccord/"
+        azureSubscriptionKey: '707ab40463224d28851a13d172ff1825'
+
+submission:
+    uploadfile:
+        diskPath: "E:/Sites/Prod/App_UploadedFiles/SubmissionForm"
+        httpPath: "https://membercentral.renaissanceins.com/App_UploadedFiles/SubmissionForm/"
+        baseUrl: "https://membercentral.renaissanceins.com/PorticoSubmission/"
