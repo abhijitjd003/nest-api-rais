@@ -5,19 +5,19 @@ db:
     mssql:
         db1:
             DB_PORT: 1433
-            DB_HOST: "raisdevsql01.renaissanceins.com"
+            DB_HOST: "raisdevsql01"
             DB_USER: "DWWebService"
             DB_PASSWORD: "N3wton!!"
             DB_NAME: "RAISDataModel"
         db2:
             DB_PORT: 1433
-            DB_HOST: "raisdevsql01.renaissanceins.com"
+            DB_HOST: "raisdevsql01"
             DB_USER: "DWWebService"
             DB_PASSWORD: "N3wton!!"
             DB_NAME: "DWFinance"
         db3:
             DB_PORT: 1433
-            DB_HOST: "raisdevsql01.renaissanceins.com"
+            DB_HOST: "raisdevsql01"
             DB_USER: "DWWebService"
             DB_PASSWORD: "N3wton!!"
             DB_NAME: "MemberCentral"
@@ -49,7 +49,7 @@ auth:
 
 log:
     api:
-        url: "https://stagingraisapi.renaissanceins.com"
+        url: "https://stagingraisapi"
         username: "raisapiadmin"
         password: "v7VpdZx85zRr"
 
@@ -71,11 +71,11 @@ hubspot:
 accord:
     uploadfile:
         diskPath: "D:/Code/Repository/membercentral/MemberCentral/Rais.Web/App_UploadedFiles/SubmissionAccord"
-        httpPath: "https://mydev.renaissanceins.com/App_UploadedFiles/SubmissionAccord/"
+        httpPath: "https://mydev/App_UploadedFiles/SubmissionAccord/"
         azureSubscriptionKey: '707ab40463224d28851a13d172ff1825'
 
 submission:
     uploadfile:
         diskPath: "D:/Code/Repository/membercentral/MemberCentral/Rais.Web/App_UploadedFiles/SubmissionForm"
-        httpPath: "https://mydev.renaissanceins.com/App_UploadedFiles/SubmissionForm/"
-        baseUrl: "https://mydev.renaissanceins.com/PorticoSubmission/"
+        httpPath: "https://mydev/App_UploadedFiles/SubmissionForm/"
+        baseUrl: "https://mydev/PorticoSubmission/"
